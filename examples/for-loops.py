@@ -37,4 +37,9 @@ for word in st.split():
     if word[0] == 's':
         print word
 
+# Example 6
+values = ['Leo', 'Angelina', 'Arthur']
+for index, element in enumerate(my_container):
+    print ('{} {}'.format(index, element))        
+
 
