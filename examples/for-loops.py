@@ -1,6 +1,5 @@
 # Example 1 - Iterate through a string
 string = raw_input("Enter a word: ")
-
 for char in string:
     print(char* 2)    
 
