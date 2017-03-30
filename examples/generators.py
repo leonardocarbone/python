@@ -23,3 +23,10 @@ print next(ex)
 print next(ex)
 print next(ex)
     
+# Example 3 - Generator that generates the squares of numbers up to some number N
+def gensquares(n):
+  for x in range(n):
+    yield x**2
+    
+for x in gensquares(10):
+  print x
