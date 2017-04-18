@@ -15,3 +15,9 @@ print words.most_common(1) # results [('show', 2)]
 
 # Example 4 - Count the words on the sentence
 print sum(words.values())
+
+
+# Example 5 - List unique elements
+lst = [1,2,3,1,4]
+print list(Counter(lst))
+
